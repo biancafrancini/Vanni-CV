@@ -1,15 +1,28 @@
-import LogoG from './LogoG.JPG';
+import React from 'react';
+import CvSections from "./CvSections";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={LogoG} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="title-container">
+        <h1>
+          Vanni Francini
+        </h1>
+        </div>
       </header>
+      <div className="containerTwo">
+
+        <CvSections />
+      </div>
+      <footer className="App-footer">
+        <p>
+          Coded by <a className="github-link" href="https://github.com/biancafrancini" target="_blank"> Bianca Francini </a>
+          </p>
+      </footer>
     </div>
   );
 }
