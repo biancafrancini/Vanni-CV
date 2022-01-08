@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutMe from "./AboutMe";
 import AboutPic from './AboutPic.png';
 import SkillsPic from './SkillsPic.jpg';
 import Modelling from './Modelling.png';
@@ -19,7 +20,7 @@ export default function CvSections(){
           Very good command of many digital IT platforms and excellent customer score satisfaction. My key career achievements to date have included English, Spanish language levels certifications; - Bulgarian and French no certificate only basic skills - and hygienic security on work places qualifications. I want to include here even my Bachelor and Master Degree of five years in Architecture at the University of Florence, in Italy. I have strong written and spoken English language skills gained through high and university scholar course plus extra scholar courses and direct experience in England for one month as well as mother-tongue competency in Italian. 
           </p>
           <button type="button" class="btn button-learnMore">
-            <a className="aboutme-link" href="#">Learn more</a>
+            <a className="aboutme-link" target="_blank" href="aboutMe">Learn more</a>
           </button>
         </div>
         <div className="col-6 mt-5 img-my-projects">

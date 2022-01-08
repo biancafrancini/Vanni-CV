@@ -1,5 +1,5 @@
 import React from 'react';
-import CvSections from "./CvSections";
+import Homepage from "./Homepage";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
@@ -7,23 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="title-container">
-        <h1>
-          Vanni Francini
-        </h1>
-        </div>
-      </header>
-      <div className="containerTwo">
-
-        <CvSections />
-      </div>
-      <footer className="App-footer">
-        <p>
-          Coded by <a className="github-link" href="https://github.com/biancafrancini" target="_blank"> Bianca Francini </a>
-          </p>
-      </footer>
+    <Homepage />
     </div>
+    
   );
 }
 
