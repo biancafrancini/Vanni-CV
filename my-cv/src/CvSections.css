@@ -1,0 +1,30 @@
+.abstract{
+    text-align: left;
+    padding: 80px 15px;
+  }
+  
+  .portfolio-link, 
+  .skills-link ,
+  .aboutme-link {
+    color:rgb(0, 26, 109);
+    font-size: 18px;;
+  }
+
+  .About-picture {
+      width: 350px;
+      padding: 20px;
+      border: 2px solid black;
+  }
+
+  .Skills-picture{
+      width: 340px;
+      padding: 20px;
+      border: 2px solid black;
+  }
+
+  .Modelling-picture{
+    width: 330px;
+    margin-top: 35px;
+    padding: 22px;
+    border: 2px solid black;
+  }

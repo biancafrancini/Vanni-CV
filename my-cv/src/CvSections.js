@@ -1,6 +1,9 @@
 import React from 'react';
+import AboutPic from './AboutPic.png';
+import SkillsPic from './SkillsPic.jpg';
+import Modelling from './Modelling.png';
 
-import "./App.css";
+import "./CvSections.css";
 
 export default function CvSections(){
     return (
@@ -8,7 +11,7 @@ export default function CvSections(){
 <div className="container" id="homepage-sections">
       <div className="row abstract">
         <div className="col-6 mt-5 mb-5 img-about-me">
-        <p>image</p>
+        <img src={AboutPic} className="About-picture" alt="img" />
         </div>
         <div className="col-6 mt-4 introducing-myself">
           <h2 className="aboutTitle mt-5">About me</h2>
@@ -20,7 +23,7 @@ export default function CvSections(){
           </button>
         </div>
         <div className="col-6 mt-5 img-my-projects">
-          <p>image</p>
+        <img src={SkillsPic} className="Skills-picture" alt="img" />
         </div>
         <div
           className="col-6  mt-5 introducing-projects"
@@ -36,7 +39,7 @@ export default function CvSections(){
           </button>
         </div>
         <div className="col-6 mt-5 img-my-projects">
-          <p>image</p>
+        <img src={Modelling} className="Modelling-picture" alt="img" />
         </div>
         <div
           className="col-6 mt-5 introducing-projects"
