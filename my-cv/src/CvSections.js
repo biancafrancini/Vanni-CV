@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutMe from "./AboutMe";
+import MySkills from "./MySkills";
 import AboutPic from './AboutPic.png';
 import SkillsPic from './SkillsPic.jpg';
 import Modelling from './Modelling.png';
@@ -36,7 +37,7 @@ export default function CvSections(){
           IT Skills: basic Python programming language, VPN and Network resolution problems. 
           </p>
           <button type="button" className="btn success button-learnMore">
-            Learn more
+          <a className="myskills-link" target="_blank" href="./MySkills">Learn more</a>
           </button>
         </div>
         <div className="col-6 mt-5 img-my-projects">
