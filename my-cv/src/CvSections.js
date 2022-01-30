@@ -36,7 +36,7 @@ export default function CvSections(){
           IT Skills: basic Python programming language, VPN and Network resolution problems. 
           </p>
           <button type="button" className="btn success button-learnMore">
-            <a className="skills-link" href="#">Learn more</a>
+            Learn more
           </button>
         </div>
         <div className="col-6 mt-5 img-my-projects">

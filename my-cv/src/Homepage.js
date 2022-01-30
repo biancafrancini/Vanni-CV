@@ -4,7 +4,7 @@ import CvSections from "./CvSections";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
-export default function ContactMe() {
+export default function Homepage() {
     return (
         <div className="Homepage">
         <header className="Homepage-header">
@@ -19,7 +19,7 @@ export default function ContactMe() {
         </div>
         <footer className="Homepage-footer">
           <p>
-            Coded by <a className="github-link" href="https://github.com/biancafrancini" target="_blank"> Bianca Francini </a>
+            Coded by <a className="github-link" href="https://github.com/biancafrancini" target="_blank" rel="noreferrer"> Bianca Francini </a>
             </p>
         </footer>
       </div>
