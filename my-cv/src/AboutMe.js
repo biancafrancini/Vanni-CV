@@ -2,6 +2,7 @@ import React from 'react';
 import AboutPic from './AboutPic.png';
 
 import './App.css';
+import './AboutMe.css';
 
 
 export default function AboutMe() {
@@ -25,17 +26,22 @@ export default function AboutMe() {
           className="col-6 mt-5 introducing-projects">
           <h2 className="EducationTitle mt-5"> My Education </h2>
           <p className="text-Education">
+            Graduation
+            High School
           </p>
         </div>
         <div className="col-6  mt-5">
-          <h2 className="WorkExperienceTitle mt-5">My work experience</h2>
-          <p className="text-WorkExperience">
-        Work Experience here...
-          </p>
         </div>
         <div className="col-6 mt-5">
+        <h2 className="WorkExperienceTitle mt-5">My work experience</h2>
+          <p className="text-WorkExperience">
+        My Work Experience...
+          </p>
         </div>
         </div>
+        <button type="button" className="btn success button-learnMore">
+          <a className="homepage-link" href="/">Back to my profile</a>
+          </button>
         </div>
         </div>
     );

@@ -2,12 +2,10 @@
     text-align: left;
     padding: 80px 15px;
   }
-  
-  .portfolio-link, 
-  .skills-link ,
-  .aboutme-link {
+   
+  .contacts-pages-link {
     color:rgb(0, 26, 109);
-    font-size: 18px;;
+    font-size: 18px;
   }
 
   .About-picture {
@@ -27,4 +25,9 @@
     margin-top: 35px;
     padding: 22px;
     border: 2px solid black;
+  }
+
+  .contacts-container{
+    text-align:center;
+    color: black;
   }

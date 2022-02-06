@@ -1,6 +1,5 @@
 import React from 'react';
 import CvSections from "./CvSections";
-import ContactMe from "./ContactMe";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
@@ -18,7 +17,6 @@ export default function Homepage() {
         <div className="containerTwo">
           <CvSections />
         </div>
-            <a className="contactme-link" target="_blank" href="./ContactMe">Contact me</a>
           <br />
           <br />
 
