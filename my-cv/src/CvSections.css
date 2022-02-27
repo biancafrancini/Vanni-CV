@@ -4,6 +4,7 @@
   }
    
   .contacts-pages-link {
+    text-decoration: none;
     color:rgb(0, 26, 109);
     font-size: 18px;
   }

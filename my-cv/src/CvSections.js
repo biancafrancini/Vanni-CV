@@ -63,7 +63,7 @@ export default function CvSections(){
        <h3>Contact me 📲 </h3>
        <br />
       <br />
-       <div className="row contacts">
+       <div className="row contacts" id="contact-Vanni">
        <div className="col-4 mt-4 gmail-icon">
        <FontAwesomeIcon icon={faEnvelope} /> 
        <br />

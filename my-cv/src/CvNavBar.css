@@ -1,0 +1,17 @@
+#title-vanni-page{
+    color: black;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+#title-page {
+    color: black;
+    font-size: bold;
+    padding: 10px;
+}
+
+.vanni-logo{
+    padding: 5px;
+    width: 110px;
+}

@@ -3,3 +3,14 @@
     text-align: center;
     color:rgb(0, 26, 109);
 }
+
+.contacts-container{
+    text-align:center;
+    color: black;
+  }
+
+  .contacts-pages-link {
+    text-decoration: none;
+    color:rgb(0, 26, 109);
+    font-size: 18px;
+  }
